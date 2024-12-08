@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Julfilm hjälp</h1>
+    <form id="searchForm">
+        <select name="queryType" id="queryType" required>
+            <option value="allMovies" >Alla filmer</option>
+            <option value="genre">Filmer efter genre</option>
+            <option value="actor">Filmer med skådespelare</option>
+        </select>
+        <input type="text" id="input" name="input" required>
+        <button type="submit" id="submit">Sök</button>
+    </form>
+    <div id="result"></div>
+    <script src="fIndex.js"></script>
+</body>
